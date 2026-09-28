@@ -1,9 +1,9 @@
+import hero from "../assets/hero.png";
+
 function Home() {
   return (
     <section className="hero">
-
       <div className="hero-content">
-
         <span className="tag">
           DESENVOLVIMENTO DE SISTEMAS
         </span>
@@ -38,18 +38,16 @@ function Home() {
             Meios de contato
           </a>
         </div>
-
       </div>
 
       <div className="hero-image">
         <div className="image-glow"></div>
 
         <img
-          src="/src/assets/hero.png"
+          src={hero}
           alt="Imagem do portfólio"
         />
       </div>
-
     </section>
   );
 }
